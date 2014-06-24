@@ -1,0 +1,114 @@
+/* @override http://www.redprofesional.mx/assets/css/estilos.css */
+
+body {
+	background-color: #e5e5e5;
+}
+
+.btn-info {
+	background-color: #ed3536;
+}
+
+
+.btn-info:hover {
+	background-color: #ff4a4d;
+}
+
+.btn-success {
+	background-color: #abaf36;
+}
+.btn-success:hover {
+	background-color: #d5da43;
+}
+
+
+a.navbar-brand {
+	background-image: url(../images/logo.png);
+	display: inline-block;
+	height: 88px;
+	width: 209px;
+	overflow: hidden;
+	font-size: 12px;
+	text-align: right;
+	color: #000 !important;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+ul.nav.navbar-nav li a {
+	text-transform: capitalize;
+	font-size: 16px;
+}
+
+ul.nav.navbar-nav {
+	margin-top: 31px;
+}
+
+.resultados {
+	background-color: #fff;
+}
+
+li.list-group-item {
+	background-color: #727272;
+}
+
+li.list-group-item a {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 13px;
+	width: 100%;
+}
+
+li.list-group-item a:hover {
+	text-decoration: none;
+}
+
+#categories {
+	background-color: #fff;
+}
+
+#search {
+	margin-top: 120px;
+	padding-top: 56px;
+	background: url(../images/buscador.jpg) fixed center bottom;
+}
+
+a {
+	color: #ed3536;
+}
+
+a:hover {
+	color: #ffab00;
+	text-decoration: none;
+}
+
+.label-info {
+	background-color: #1070a8;
+}
+
+
+
+li.list-group-item:hover {
+	background-color: #ed3536;
+}
+
+.list-group-item {
+	position: relative;
+	display: block;
+	padding: 0px;
+	margin-bottom: -1px;
+	background-color: #fff;
+	border: 1px solid #ddd
+}
+
+
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{color: #fff;cursor:default;background-color: #ed3435;border:1px solid #ddd;border-bottom-color:transparent}
+
+.nav-tabs li a {
+		background-color: #727272;
+		color: #fff;
+}
+
+.nav-tabs li a:hover {
+		background-color: #f69b1d;	
+}

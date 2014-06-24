@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^redprofesional.mx  
+RewriteRule ^(.*)$ http://www.redprofesional.mx/$1 [R=permanent,L]
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+</IfModule>
+
+Redirect 301 /BolsaDeTrabajoIusacell/perfilVista https://www.redprofesional.mx
